@@ -6,6 +6,72 @@
     <title>Ejemplo de vinculación entre dos paginas</title>
 </head>
 <body>
-    
+    <h1>Formulario de Prueba</h1>
+    <form action="" method=""> <!--van vacios por el momento-->
+        <!--sirven para conectarse con el servidor y el metodo de envio -->
+        <p>
+            <label for="nom">Nombre</label>
+            <input type="text" name="Nombre" placeholder="escribi tu nombre"/>
+        </p>
+        <p>
+            <label for="ape">Apellido</label>
+            <input type="text" name="apellido" placeholder="escriba su apellido"/>
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" placeholder="ContraseñaDeEjemplo">
+        </p>
+        <p>
+            <label for="sexo"> Sexo </label>
+            <ul>
+                <li>
+                    <input type="radio" name="sexo" id="" value="hombre">
+                    <label> Hombre </label>
+
+                </li>
+                <li>
+                    <input type="radio" name="sexo" value="mujer">
+                    <label> Mujer </label>
+                </li>
+            </ul>
+        </p>
+        <label> Hobbies </label>
+        <ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" id="bailar" value="bailar">
+                <label for="bailar"> Bailar </label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="cantar" id="cantar">
+                <label for="cantar"> Cantar </label>
+            
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="nadar"id="nadar">
+                <label for="nadar"> Nadar </label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="correr" id="correr">
+                <label for="correr"> Correr </label>
+            </li>
+        </ul>
+        <p>
+            <label for="titulo"> Titulo </label>
+            <select name="titulo" id="titulo">
+                <option value="primario"> Primario </option>
+                <option value="secundario"> Secundario </option>
+                <option value="terciario"> Terciario </option>
+                <option value="universitario"> Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="comentarios"> Comentarios </label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
 </body>
 </html>

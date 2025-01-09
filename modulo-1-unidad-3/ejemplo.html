@@ -39,15 +39,49 @@
 
         </ol><!-- href va la url, la ubicacion del documento o enlace a la pagina web -->
     <h2>Vinculación</h2><!--sino esta target _blank, la pagina vinculada reempplazara a la mia-->
-        <a href="ejemploForm.html"  > Demostracion de vinculación</a>
+        <a href="ejemploForm.html" title="Demostracion de vinculación" > Formulario</a>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
            Perspiciatis dolor voluptatem veritatis beatae nam reiciendis molestias 
            distinctio, nihil autem quia at maxime dicta soluta. 
            Repudiandae accusantium doloremque sunt! Magnam, voluptatem!
-           vinculo a un video de youtube <a href="https://www.youtube.com/watch?v=ksdCU64_HEQ&list=TLPQMDgwMTIwMjXjXp_0llqvVA&index=3" target="_blank">aca</a>
+           Prueba de vinculacion con una palabra <a href="https://www.youtube.com/watch?v=ksdCU64_HEQ&list=TLPQMDgwMTIwMjXjXp_0llqvVA&index=3" title="show de gordo" target="_blank" rel="noopener noreferrer">video</a>
         </p>
     <h2>Agregando imagenes</h2>
         <!--Cuidado img se crea sin cerrar <img... > hay que cerrarlo <img../> -->
         <img src="river2.jpg" alt="river campeón de la libertadores"/>
 </body>
+    <h2>gráfico vectorial</h2>
+        <h3>grafico de un rectangulo</h3>
+        <svg width="250" height="250" viewBox="0 0 25 50" style="border: 1px solid black;">
+            <!--viewBox permite escalar el grafico, cambiar las coordenadas donde comienza,,-->
+            <!--border me muestra el los bordes del svg, mi hoja de grafico las propiedades pueden cambiar-->
+            <rect x="0" y="0" width="100" height="50" style="fill:orange"></rect>
+            
+            <line x1="10" y1="10" x2="190" y2="190" stroke="blue" stroke-width="2" ></line>
+        </svg>
+        <h3>grafico de un circulo</h3>
+        <svg width="250" height="250"  style="border: 1px solid black;">
+            <!--viewBox permite escalar el grafico, cambiar las coordenadas donde comienza,,-->
+            <!--border me muestra el los bordes del svg, mi hoja de grafico las propiedades pueden cambiar-->
+            <text x="5" y="5" font-size="10" fill="black" transform="translate(70, 80)">¡Esto es un circulo en html usando SVG!</text>
+            <circle cx="0" cy="0" r="40" fill="red" transform="translate(125, 125)" ></circle>
+        </svg>
+        <h3>gráfico de polígonos y políneales</h3>
+        <svg width="300" height="300" style="border: 1px solid black;">
+            <polygon points="50,10 90,100 10,100, 50,200" fill="purple" stroke="black" stroke-width="2"></polygon>
+
+            <polyline points="200,50 250,150 150,150 70,200" fill="none" stroke="red" stroke-width="2"></polyline>
+        </svg>
+        <h2> ejemplo de etiquetas de audio y video</h2>
+        <h3> audio</h3><!--controls muestra los controles de pausa,reproducir,ajustar volumen,otros-->
+        <p>Audio de Ke personajes Ft Americo - Entre el odio y el amor</p>
+            <audio controls preload="metadata" muted> <!--preload meda mostrar info en este caso su duracion-->
+                <source src="KePersonajesFtAmerico-Entre-el-Odio-y-el-Amor.mp3" type="audio/mpeg">
+                <source src="KePersonajesFtAmerico-Entre-el-Odio-y-el-Amor.ogg"type="audio/ogg">
+            </audio>
+        <h3>video</h3>
+        <p>video con controles basicos</p>
+        <video src="emanero.webm" controls muted type="video/webm"></video>
+        <!--tengo que buscar info sobre como reducir el tamaño del video par que no baje su calidad-->
+
 </html>
