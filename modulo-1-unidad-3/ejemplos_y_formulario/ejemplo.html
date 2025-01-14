@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer html</title>
+    <link rel="stylesheet" href="../../modulo-1-unidad-4/ejemplo.css"><!--el ../ indica que sube un nivel en la 
+                                                                        carpeta contenedora del archivo-->
+
+
+
 </head>
 <body>
     <h1>encabezado 1</h1> <!-- solo uno por pagina sirve para posicionar la marca-->
@@ -16,9 +21,9 @@
     <h6>encabezado 6</h6>
                                 <!--demostracion que se puede usar varios hX con X entre 2 y 6-->
     <h2>ejemplo de párrafo</h2> <!-- html no tiene problemas con los acentos-->
-        <p><!--etiqueta de parrafo; Lorem se utiliza para dar ejemplos al cliente y no perder su atencion -->
+        <p class="estiloPropio"><!--etiqueta de parrafo; Lorem se utiliza para dar ejemplos al cliente y no perder su atencion -->
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Repudiandae exercitationem, quam libero architecto excepturi natus dignissimos, 
+        <span class="styleOracion">Repudiandae exercitationem, quam libero architecto excepturi natus dignissimos,</span><!--etiqueta span para darle formato a un conjunto de palabras-->
         ex iure hic dolor, aspernatur voluptatibus aliquam omnis! 
         Quis numquam vel quasi quam iste!
         </p> 
@@ -46,6 +51,23 @@
            Repudiandae accusantium doloremque sunt! Magnam, voluptatem!
            Prueba de vinculacion con una palabra <a href="https://www.youtube.com/watch?v=ksdCU64_HEQ&list=TLPQMDgwMTIwMjXjXp_0llqvVA&index=3" title="show de gordo" target="_blank" rel="noopener noreferrer">video</a>
         </p>
+        <div>
+            <p id="rojo"><!--etiqueta de parrafo; Lorem se utiliza para dar ejemplos al cliente y no perder su atencion -->
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Repudiandae exercitationem, quam libero architecto excepturi natus dignissimos,<!--etiqueta span para darle formato a un conjunto de palabras-->
+                ex iure hic dolor, aspernatur voluptatibus aliquam omnis! 
+                Quis numquam vel quasi quam iste!
+            </p> 
+        </div>
+        <div>
+            <p id="naranja"><!--etiqueta de parrafo; Lorem se utiliza para dar ejemplos al cliente y no perder su atencion -->
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Repudiandae exercitationem, quam libero architecto excepturi natus dignissimos,<!--etiqueta span para darle formato a un conjunto de palabras-->
+                ex iure hic dolor, aspernatur voluptatibus aliquam omnis! 
+                Quis numquam vel quasi quam iste!
+            </p> 
+        </div>
+ 
     <h2>Agregando imagenes</h2>
         <!--Cuidado img se crea sin cerrar <img... > hay que cerrarlo <img../> -->
         <img src="river2.jpg" alt="river campeón de la libertadores"/>
@@ -81,7 +103,7 @@
             </audio>
         <h3>video</h3>
         <p>video con controles basicos</p>
-        <video src="emanero.webm" controls muted type="video/webm"></video>
-        <!--tengo que buscar info sobre como reducir el tamaño del video par que no baje su calidad-->
+        <video id="miVideo" src="emanero.webm" controls muted type="video/webm"></video>
+
 
 </html>

@@ -1,0 +1,53 @@
+h1 {/*comentario css*/
+    color:aqua; /*comentario css*/
+    font-size: 30px;/*ajusta el tamaño de la fuente*/
+    text-align: center; /*alinea el texto en este caso  al centro*/
+    background-color: black; /*color de fondo*/
+    font-family: 'Lucida Sans Unicode';
+    background-size:contain;/*ajusta el tamaño del fondo*/
+}
+
+#destacadoUno{
+    color: darkslategray;
+    font-family: 'Lucida Sans Regular';
+}
+
+h2{/*se aplica a todos las etiquetas en este caso las h2*/
+    color: darkslategray;
+    font-size: 25px;
+    font-family:sans-serif; /* fuente del texto*/
+}
+
+.styloOracion{
+    color:forestgreen;
+    font-size: 20px;
+    font-style:oblique;
+}
+
+p{
+    color: green;
+    font-family: "Verdana";
+    font-size:15px;
+    
+}
+
+ul li{
+    color:mediumblue;
+    font-style: normal;
+    font-size: 15px;
+    font-family:'Calibri';
+    background-color:chocolate;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+
+}
+
+h3{
+    font-family: 'Lucida Sans';
+}
+
+ol li {
+    font-family:Tahoma;
+}
+

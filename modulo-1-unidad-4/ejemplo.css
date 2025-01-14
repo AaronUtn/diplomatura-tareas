@@ -1,0 +1,59 @@
+
+h1 {/*comentario css*/
+    color:aqua; /*comentario css*/
+    font-size: 30px;/*ajusta el tamaño de la fuente*/
+    text-align: center; /*alinea el texto en este caso  al centro*/
+    background-color: black; /*color de fondo*/
+    background-size:contain;/*ajusta el tamaño del fondo*/
+}
+h2{/*se aplica a todos las etiquetas en este caso las h2*/
+    color: darkorange;
+    font-size: 25px;
+    font-family:sans-serif; /* fuente del texto*/
+}
+
+.estiloPropio{/*se aplica de manera particular a una etiqueta*/
+    color:brown;/*primero en el archivo html se debe agregar a la etiqueta 
+                    la clase de referencia, esta clase puede ser utilizada por varias etiquetas para que funcione
+                     para darle el mismo formato */
+    font-family: 'Franklin Gothic Medium';
+    font-style: initial;
+    font-size: 20px;
+    background-color: black; /*color de fondo*/
+    background-size: cover;/*ajusta el tamaño del fondo*/
+    
+}
+.styleOracion{
+    color:darkgreen;
+    font-family: 'monospace';
+    font-size: 30px;
+}
+
+#rojo{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;/*no cambio el tamaño de la caja sino que se agregan dentro de ella sin cambiar su tamano preestablecido*/
+}
+
+#naranja{
+    background-color:orange;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid aqua;
+    font-family: "serif";
+    box-sizing: border-box;
+}
+
+video {
+    width: 75%; /*ajusta el ancho del contenedor*/
+    height: auto;/*ajusta el auto*/
+    border: 2px solid #000;
+    border-radius: 10px; /*bordes redondos*/
+
+    
+
+}
