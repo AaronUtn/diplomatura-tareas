@@ -1,0 +1,90 @@
+h1 {/*comentario css*/
+    color:aqua; /*comentario css*/
+    font-size: 30px;/*ajusta el tamaño de la fuente*/
+    text-align: center; /*alinea el texto en este caso  al centro*/
+    background-color: black; /*color de fondo*/
+    font-family: 'Lucida Sans Unicode';
+    background-size:contain;/*ajusta el tamaño del fondo*/
+}
+
+#destacadoUno{
+    color: darkslategray;
+    font-family: 'Lucida Sans Regular';
+}
+
+h2{/*se aplica a todos las etiquetas en este caso las h2*/
+    color: darkslategray;
+    font-size: 25px;
+    font-family:sans-serif; /* fuente del texto*/
+}
+
+.styloOracion{
+    color:forestgreen;
+    font-size: 20px;
+    font-style:oblique;
+}
+
+p{
+    color: green;
+    font-family: "Verdana";
+    font-size:15px;
+    
+}
+
+ul li{
+    color: black;
+    font-style: normal;
+    font-size: 15px;
+    font-family:'Calibri';
+    background: rgb(36,0,0);
+    background: linear-gradient(90deg, rgba(36,0,0,0) 0%, rgba(140,48,48,1) 18%, rgba(212,49,49,1) 35%, rgba(165,33,33,1) 56%, rgba(134,18,18,1) 76%, rgba(68,0,255,0.6839110644257703) 100%);
+    width: 250px;
+    height: 60px;
+    text-align:left;
+
+}
+.estiloDeLaLista{
+    list-style: none;
+    padding: 0;
+}
+.estiloDeLaLista li::marker{
+    content: ".";
+    color:black;
+    padding: 15px;
+    font-size: 30px;
+    background-color: brown;
+
+}
+
+h3{
+    font-family: 'Lucida Sans';
+}
+
+ol li {
+    font-family:Tahoma;
+}
+
+.icon {
+    text-decoration: none; /* Sin subrayado */
+    margin: 10px; /* Separación entre íconos */
+    display: inline-block; /* Para aplicar márgenes y paddings */
+    font-size: 30px; /* Tamaño del ícono */
+    transition: transform 0.3s, color 0.3s; /* Animación suave */
+}
+
+.imagen{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px 25px ;
+    box-shadow: 10px 20px 5px black;
+}
+
+#texto{
+    column-count: 2;
+
+
+}
+#texto p{
+    margin: 0;
+}
+

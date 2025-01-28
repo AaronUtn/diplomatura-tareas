@@ -1,0 +1,103 @@
+/* fuentes 
+font-family: "Roboto", serif; roboto 
+font-family: "Bebas Neue", serif; bebas neue
+ font-family: "Kavivanar", serif; kavivanar
+*/
+
+#caja {
+    width: 300px;
+    height: 300px;
+    background: rgb(36, 0, 0);
+    background: linear-gradient(
+        90deg, rgba(36, 0, 0, 0) 0%, rgba(140, 48, 48, 1) 18%, 
+        rgba(212, 49, 49, 1) 35%, rgba(165, 33, 33, 1) 56%,
+        rgba(134, 18, 18, 1) 76%, rgba(68, 0, 255, 0.6839110644257703) 100%);
+    margin: 100px;
+    padding: 20px;
+    border-radius: 30px 0 25px 15px;
+    box-shadow: 0px 0px 25px black;
+    border: 2px solid white
+
+}
+
+h1{
+    font-family: "Roboto", serif;
+}
+
+h2{
+    font-family: "Bebas Neue", serif;
+}
+.FuenteTres{
+    font-family: "Kavivanar", serif;
+}
+
+h3{
+    font-family: "Kavivanar",serif;
+}
+
+/* buscar gradientes generadores 
+para panipular los parametros manipuladores 
+y generar distintos tipos de colores 
+Genera un especie de degrade en la pagina 
+Los gradientes sestan en la baja ya que se usan muchos formato
+recomendado para celulares*/
+
+/*eb birdes redondeados se 
+puede usar atras cuatro paramentros
+depende la cantidad de parametros se van a bordear con la cantidad de parametros hasta repetir 
+*/
+/*sombra los parametros son eje x - eje y- desenfoque - color
+signos - - van para arriba y para izquierda
+se puede combinan con bordes para que resalte mas
+
+columnas cantidad de contenido que uno tenga
+*/
+
+.texto{
+    background-color: orange;
+    column-count: 5;
+    column-gap: 15px;
+}
+.texto p{
+    margin: 0;
+
+}
+/*
+columnas cantidad de contenido que uno tenga se puede acomodar
+en columnas
+tenemos count que es la cantidad que qeuremos tener y gap que es el 
+espacio entre ellos, si esta no esta tienen una por defecto.
+
+*/
+/*
+como quitar por defecto los margenes de la etiqueta p
+utilizamos la característica de asociar clase y etiquetas
+este caso .texto p{}
+los iconos son fuentes que no se pierde calidad cuando cambia el tamaño
+*/
+/*
+google fonts 
+podemos copiar todos los link o solo el ultimo link
+va a funcionar igual.
+Despus nos da los estilos 
+en modo clase, por el moemtno no es necesario con el
+la caracteristica 
+font-family basta
+despues agregar arriba con una breve descripcion de los font seleccionandos
+
+*/
+
+/*iconos que se manejan a traves de fuentes
+tenemos varias librerias para poder usarlos
+va adepender de que conocemos
+
+tenemos una pagina cdnjs que es un sitio con todas las bibliotecas para javascript
+nos da info y nosda el link para asociar esa libreria a nuestro sitio 
+*/
+/*
+cssgenerator.org
+cdnjs.com
+fontawesome.com
+fonts.google.com
+cssgradient.io
+*/
