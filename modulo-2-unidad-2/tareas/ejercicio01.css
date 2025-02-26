@@ -1,0 +1,36 @@
+
+.contenedor {
+    display: flex;  /* Activa Flexbox */
+    width: 600px;    
+    height: 600px;  /* Altura del contenedor */
+    border: 2px solid black;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+
+  }
+  
+  .item {
+
+    width: 200px;
+    height: 200px;
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    left: 400px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item:first-child{
+    background-color: red;
+    
+  }
+  
+  .item:nth-child(2){
+    background-color: blue;
+  }
+  .item:nth-child(3){
+    background-color: green;
+  }
