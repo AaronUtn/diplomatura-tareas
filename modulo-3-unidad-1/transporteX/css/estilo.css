@@ -1,0 +1,159 @@
+/*font-family: "Bebas Neue", serif; */
+body{
+    font-family: "Bebas Neue",serif;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+header{
+    background-color: blue;
+    padding: 16px 0;
+}
+header h1{
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 100;
+    font-style:italic;
+    display: inline-block;
+    position:relative;
+    bottom:180px ;
+    margin-left: 15px;
+}
+
+nav{
+    background-color: rgb(107, 107, 213);
+    margin-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0;
+
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul a.activo{
+    background-color:darkblue;
+}
+nav ul li a:hover{
+    background-color: black;
+}
+
+footer{
+    background-color:rgb(152, 144, 144);
+    padding: 5px 0;
+    clear: both;
+    color: #333;
+    text-align:left;
+    margin-top: 20px;
+    
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+}
+/* seccion home*/
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+
+    /*border: 10px solid black;*/
+    box-sizing: border-box;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.testimonios{
+    width: 25%;
+    background-color: #ccc;
+    padding: 16px;
+}
+.testimonios .cita{
+    font-weight:bolder;
+    font-style: italic;
+    font-size: 20px;
+    display: block;
+}
+.testimonios .autor{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+/* fin home*/
+/*incio nosotros*/
+.historia p{
+    font-size: 12px;
+}
+.personas{
+    display: flex;
+    justify-content: space-between;
+
+}
+.persona{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.persona h5, .persona h6{
+    margin:0;
+    font-weight: normal;
+    color: #2e64a1;
+
+}
+.persona h5{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.persona h6{
+    font-size: 11px;
+    font-style: italic;
+}
+.persona p{
+    color:#666;
+    font-size: 14px;
+}
+/*fin nosotros*/
+/*servicios inicio*/
+.servicio{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+/*servicios fin*/
+
