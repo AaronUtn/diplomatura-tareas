@@ -1,0 +1,43 @@
+.cuadradoUno{
+    width: 100px;
+    background-color: red;
+    height: 100px;
+}
+
+.cuadrados{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    max-height: 300px;
+}
+.cuadradoDos{
+    width: 100px;
+    background-color: green;
+    height: 100px;
+}
+.cuadradoTres{
+    width: 100px;
+    background-color: blue;
+    height: 100px;
+}
+
+.cuerpo{
+    background-color: gray;
+}
+.cuerpo.rojo{
+    background-color: red;
+}
+
+.cuerpo.verde{
+    background-color: green;
+}
+.cuerpo.azul{
+    background-color: blue;
+}
+
+.boton {
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
